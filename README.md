@@ -23,3 +23,15 @@ Citation : http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 Metric(s): 
 * Categorical Crossentropy
 * Confusion Matrix
+
+<h3> How does it work ? </h3>
+* Understanding image data
+* Image augmentation
+* Applying model
+
+<h3> Conclusion </h3>
+1. we applied image augmentation to this dataset.
+2. we applied three model - InceptionNet, DenseNet, and ResNet. 
+3. we have taken the weight of every model which is trained on imagenet dataset, we have not freezed the layer because the retina dataset is different from imagenet dataset.
+4. we used confusion matrix because dataset is imbalanced and so accuracy score may not give good sence of result.
+5. By seeing the confusion matrix of all the three model we can say that inception net has best recall  than other model, precision is also good for inception net.
